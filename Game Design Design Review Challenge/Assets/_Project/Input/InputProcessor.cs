@@ -17,11 +17,15 @@ public class InputProcessor : ScriptableObject, PlayerInputActions.IPlayerAction
         inputActions.Player.Enable();
     }
 
+    void OnDisable() {
+       Disable();
+    }
+
     public void Initialize() {
         inputActions.Player.Enable();
     }
 
-    void OnDisable() {
+    public void Disable() {
        inputActions.Player.Disable();
     }
 
@@ -32,6 +36,8 @@ public class InputProcessor : ScriptableObject, PlayerInputActions.IPlayerAction
         if (context.performed) OnInteractEvent();
     }
     public void OnJump(InputAction.CallbackContext context) {
-        if (context.performed) OnJumpEvent();
+        if (context.performed) {
+            OnJumpEvent.Invoke();
+        }
     }
 }
