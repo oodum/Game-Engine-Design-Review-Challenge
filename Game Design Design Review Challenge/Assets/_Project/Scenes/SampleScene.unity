@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 78671817}
   m_Layer: 0
   m_Name: Cylinder
-  m_TagString: Untagged
+  m_TagString: Vines
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -349,9 +349,9 @@ GameObject:
   - component: {fileID: 233662726}
   - component: {fileID: 233662725}
   - component: {fileID: 233662724}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cylinder (3)
-  m_TagString: Untagged
+  m_TagString: Vines
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -461,9 +461,9 @@ GameObject:
   - component: {fileID: 248195577}
   - component: {fileID: 248195576}
   - component: {fileID: 248195581}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -601,6 +601,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   input: {fileID: 11400000, guid: 12f0b28b35a9772d6a3810c3441d9ddc, type: 2}
+  <MoveSpeed>k__BackingField: 4
+  <ClimbSpeed>k__BackingField: 4
+  <JumpSpeed>k__BackingField: 6
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -750,6 +753,7 @@ GameObject:
   - component: {fileID: 335096884}
   - component: {fileID: 335096883}
   - component: {fileID: 335096882}
+  - component: {fileID: 335096886}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -846,6 +850,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 438048046}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &335096886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 335096881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f827fa3e5f2cc052490f9da6b4e8825a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -979,9 +995,9 @@ GameObject:
   - component: {fileID: 429188264}
   - component: {fileID: 429188263}
   - component: {fileID: 429188262}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1349,9 +1365,9 @@ GameObject:
   - component: {fileID: 774122564}
   - component: {fileID: 774122563}
   - component: {fileID: 774122562}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere (1)
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1830,9 +1846,9 @@ GameObject:
   - component: {fileID: 1462719534}
   - component: {fileID: 1462719533}
   - component: {fileID: 1462719532}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cylinder (2)
-  m_TagString: Untagged
+  m_TagString: Vines
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1940,9 +1956,9 @@ GameObject:
   - component: {fileID: 1486226814}
   - component: {fileID: 1486226813}
   - component: {fileID: 1486226812}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cylinder (4)
-  m_TagString: Untagged
+  m_TagString: Vines
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2050,9 +2066,9 @@ GameObject:
   - component: {fileID: 1826951925}
   - component: {fileID: 1826951924}
   - component: {fileID: 1826951923}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cylinder (1)
-  m_TagString: Untagged
+  m_TagString: Vines
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2376,9 +2392,9 @@ GameObject:
   - component: {fileID: 1926837508}
   - component: {fileID: 1926837507}
   - component: {fileID: 1926837506}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cylinder (5)
-  m_TagString: Untagged
+  m_TagString: Vines
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -17,26 +17,22 @@ public class InputProcessor : ScriptableObject, PlayerInputActions.IPlayerAction
         inputActions.Player.Enable();
     }
 
-    void OnDisable() {
-       Disable();
-    }
+    void OnDisable() { Disable(); }
 
-    public void Initialize() {
-        inputActions.Player.Enable();
-    }
+    public void Initialize() { inputActions.Player.Enable(); }
 
-    public void Disable() {
-       inputActions.Player.Disable();
-    }
+    public void Disable() { inputActions.Player.Disable(); }
 
-    public void OnMove(InputAction.CallbackContext context) {
-        OnMoveEvent(context.ReadValue<Vector2>());
-    }
+    public void OnMove(InputAction.CallbackContext context) { OnMoveEvent.Invoke(context.ReadValue<Vector2>()); }
+
     public void OnInteract(InputAction.CallbackContext context) {
-        if (context.performed) OnInteractEvent();
+        if (context.phase == InputActionPhase.Started) {
+            OnInteractEvent.Invoke();
+        }
     }
+
     public void OnJump(InputAction.CallbackContext context) {
-        if (context.performed) {
+        if (context.phase == InputActionPhase.Started) {
             OnJumpEvent.Invoke();
         }
     }
