@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using UnityEditor.Experimental.GraphView;
-using Random = UnityEngine.Random;
 
 public class StateMachine {
     StateNode current;

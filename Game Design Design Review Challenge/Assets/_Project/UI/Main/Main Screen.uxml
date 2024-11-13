@@ -1,0 +1,8 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/_Project/UI/Main%20Screen.uss?fileID=7433441132597879392&amp;guid=3e71464ac8f8c0944b7ba1549cd81940&amp;type=3#Main Screen" />
+    <engine:Label text="dfajjkfkdj" name="ScoreText" data-source="project://database/Assets/_Project/_Scripts/Score/TimeScore.asset?fileID=11400000&amp;guid=e32a9c7471445994f9b60dfc89e9087e&amp;type=2#TimeScore" class="score-text">
+        <Bindings>
+            <engine:DataBinding property="text" binding-mode="ToTarget" />
+        </Bindings>
+    </engine:Label>
+</engine:UXML>

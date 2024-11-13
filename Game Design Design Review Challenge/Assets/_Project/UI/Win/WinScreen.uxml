@@ -1,0 +1,12 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/_Project/UI/Win/WinScreen.uss?fileID=7433441132597879392&amp;guid=f33908084df1898419b92d078cef6c5a&amp;type=3#WinScreen" />
+    <engine:VisualElement class="bg" style="flex-grow: 1;">
+        <engine:VisualElement class="text-container">
+            <engine:Label text="You Win!" class="text" />
+        </engine:VisualElement>
+        <engine:VisualElement class="button-container">
+            <engine:Button text="Quit" name="QuitButton" class="button" />
+            <engine:Button text="Play Again" name="PlayAgainButton" class="button" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

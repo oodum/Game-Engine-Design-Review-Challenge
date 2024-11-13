@@ -38,6 +38,10 @@ public class PlayerController : MonoBehaviour {
         InitializeStateMachine();
     }
 
+    void Start() {
+        input.Enable();
+    }
+
     void InitializeStateMachine() {
         stateMachine = new();
 

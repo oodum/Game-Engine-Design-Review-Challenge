@@ -19,7 +19,7 @@ public class InputProcessor : ScriptableObject, PlayerInputActions.IPlayerAction
 
     void OnDisable() { Disable(); }
 
-    public void Initialize() { inputActions.Player.Enable(); }
+    public void Enable() { inputActions.Player.Enable(); }
 
     public void Disable() { inputActions.Player.Disable(); }
 
@@ -36,4 +36,5 @@ public class InputProcessor : ScriptableObject, PlayerInputActions.IPlayerAction
             OnJumpEvent.Invoke();
         }
     }
+
 }

@@ -1,0 +1,51 @@
+.bg {
+    background-color: rgba(90, 218, 72, 0.51);
+}
+
+.text-container {
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    width: 300px;
+    height: 100px;
+    padding-right: 0;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 33px;
+    -unity-font-style: bold;
+    transition-property: scale;
+    transition-timing-function: ease-out-elastic;
+    transition-duration: 0.6s;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+    border-bottom-right-radius: 19px;
+    border-bottom-left-radius: 19px;
+    background-color: rgb(55, 54, 74);
+    color: rgb(204, 207, 229);
+}
+
+.text {
+    padding-top: 100px;
+    font-size: 100px;
+    -unity-text-align: upper-center;
+    -unity-font-style: bold;
+    -unity-font-definition: url("project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&guid=ed614a50ad4a9e047a90930eb14e278d&type=3#NotInter-Regular");
+}
+
+.button:hover {
+    scale: 1.1 1.1;
+    transition-property: scale;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-out-elastic;
+}
+
+.button-container {
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 0;
+    justify-content: center;
+    height: 20%;
+}
