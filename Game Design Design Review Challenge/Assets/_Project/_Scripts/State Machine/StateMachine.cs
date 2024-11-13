@@ -94,6 +94,10 @@ public class FuncPredicate : IPredicate {
     public bool Evaluate() => predicate.Invoke();
 }
 
+public class AlwaysTruePredicate : IPredicate {
+    public bool Evaluate() => true;
+}
+
 public interface ITransition {
     IState To { get; }
     IPredicate Predicate { get; }

@@ -49,7 +49,7 @@ public class ClimbingState : PlayerBaseState {
     public override void FixedUpdate() { rb.linearVelocity = rb.linearVelocity.With(y: player.InputDirection.y * player.ClimbSpeed * player.VineCount); }
 
     public override void Exit() {
-        input.OnInteractEvent -= TriggerInteract; 
+        input.OnInteractEvent -= TriggerInteract;
         input.OnJumpEvent -= TriggerJump;
         rb.useGravity = true;
     }
@@ -69,15 +69,27 @@ public class JumpState : PlayerBaseState {
         InteractFlag = false;
     }
 
-    public override void FixedUpdate() {
-        rb.linearVelocity = rb.linearVelocity.With(x: player.InputDirection.x * player.MoveSpeed);
-    }
-    
-    public override void Exit() {
-        input.OnInteractEvent -= TriggerInteract;
-    }
-    
+    public override void FixedUpdate() { rb.linearVelocity = rb.linearVelocity.With(x: player.InputDirection.x * player.MoveSpeed); }
+
+    public override void Exit() { input.OnInteractEvent -= TriggerInteract; }
+
     void TriggerInteract() {
         if (player.VineCount > 0) InteractFlag = true;
+    }
+}
+
+public class DieState : PlayerBaseState {
+    Rigidbody rb;
+    Vector3 spawnLocation;
+
+    public DieState(PlayerController player, InputProcessor input, Vector3 spawnLocation) : base(player, input) {
+        this.spawnLocation = spawnLocation;
+        rb = player.GetComponent<Rigidbody>();
+    }
+
+    public override void Start() {
+        rb.position = spawnLocation;
+        rb.linearVelocity = Vector3.zero;
+        rb.position = spawnLocation;
     }
 }

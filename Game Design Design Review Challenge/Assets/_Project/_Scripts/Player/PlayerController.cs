@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour {
     [field: SerializeField] public float MoveSpeed { get; private set; }
     [field: SerializeField] public float ClimbSpeed { get; private set; }
     [field: SerializeField] public float JumpSpeed { get; private set; }
+    [SerializeField] Vector3 spawnPosition;
 
     public Vector2 InputDirection { get; private set; }
 
@@ -48,6 +49,7 @@ public class PlayerController : MonoBehaviour {
         MoveState move = new(this, input);
         ClimbingState climbing = new(this, input);
         JumpState jump = new(this, input);
+        DieState die = new(this, input, spawnPosition);
 
         stateMachine.AddTransition(move, climbing, new FuncPredicate(() => move.InteractFlag));
         stateMachine.AddTransition(climbing, move, new FuncPredicate(() => climbing.InteractFlag));
@@ -57,6 +59,11 @@ public class PlayerController : MonoBehaviour {
         
         stateMachine.AddTransition(jump, move, new FuncPredicate(() => IsGrounded));
         stateMachine.AddTransition(jump, climbing, new FuncPredicate(() => jump.InteractFlag));
+        
+        stateMachine.AddTransition(die, move, new AlwaysTruePredicate());
+        
+        stateMachine.AddAnyTransition(die, new FuncPredicate(() => rb.position.y < -11));
+        
         stateMachine.SetState(move);
     }
 

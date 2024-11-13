@@ -36,5 +36,4 @@ public class InputProcessor : ScriptableObject, PlayerInputActions.IPlayerAction
             OnJumpEvent.Invoke();
         }
     }
-
 }
