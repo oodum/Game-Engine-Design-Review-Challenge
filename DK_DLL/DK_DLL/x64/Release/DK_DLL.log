@@ -1,0 +1,14 @@
+﻿  Main.cpp
+  ScoreString.cpp
+  Wrapper.cpp
+C:\Users\sakarabaya\source\repos\DK_DLL\DK_DLL\Wrapper.cpp(13,25): warning C4190: 'ToString' has C-linkage specified, but returns UDT 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' which is incompatible with C
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+     Creating library C:\Users\sakarabaya\source\repos\DK_DLL\x64\Release\DK_DLL.lib and object C:\Users\sakarabaya\source\repos\DK_DLL\x64\Release\DK_DLL.exp
+  Generating code
+  3 of 99 functions ( 3.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  DK_DLL.vcxproj -> C:\Users\sakarabaya\source\repos\DK_DLL\x64\Release\DK_DLL.dll

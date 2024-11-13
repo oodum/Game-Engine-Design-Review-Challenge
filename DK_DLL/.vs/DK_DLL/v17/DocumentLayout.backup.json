@@ -1,0 +1,145 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sakarabaya\\source\\repos\\DK_DLL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F557C94A-A1C4-4C2B-8CDD-E826FC1D42B6}|DK_DLL\\DK_DLL.vcxproj|C:\\Users\\sakarabaya\\source\\repos\\DK_DLL\\DK_DLL\\Wrapper.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F557C94A-A1C4-4C2B-8CDD-E826FC1D42B6}|DK_DLL\\DK_DLL.vcxproj|solutionrelative:DK_DLL\\Wrapper.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F557C94A-A1C4-4C2B-8CDD-E826FC1D42B6}|DK_DLL\\DK_DLL.vcxproj|C:\\Users\\sakarabaya\\source\\repos\\DK_DLL\\DK_DLL\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F557C94A-A1C4-4C2B-8CDD-E826FC1D42B6}|DK_DLL\\DK_DLL.vcxproj|solutionrelative:DK_DLL\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F557C94A-A1C4-4C2B-8CDD-E826FC1D42B6}|DK_DLL\\DK_DLL.vcxproj|C:\\Users\\sakarabaya\\source\\repos\\DK_DLL\\DK_DLL\\ScoreString.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F557C94A-A1C4-4C2B-8CDD-E826FC1D42B6}|DK_DLL\\DK_DLL.vcxproj|solutionrelative:DK_DLL\\ScoreString.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F557C94A-A1C4-4C2B-8CDD-E826FC1D42B6}|DK_DLL\\DK_DLL.vcxproj|C:\\Users\\sakarabaya\\source\\repos\\DK_DLL\\DK_DLL\\Score.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F557C94A-A1C4-4C2B-8CDD-E826FC1D42B6}|DK_DLL\\DK_DLL.vcxproj|solutionrelative:DK_DLL\\Score.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F557C94A-A1C4-4C2B-8CDD-E826FC1D42B6}|DK_DLL\\DK_DLL.vcxproj|C:\\Users\\sakarabaya\\source\\repos\\DK_DLL\\DK_DLL\\ScoreString.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F557C94A-A1C4-4C2B-8CDD-E826FC1D42B6}|DK_DLL\\DK_DLL.vcxproj|solutionrelative:DK_DLL\\ScoreString.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F557C94A-A1C4-4C2B-8CDD-E826FC1D42B6}|DK_DLL\\DK_DLL.vcxproj|C:\\Users\\sakarabaya\\source\\repos\\DK_DLL\\DK_DLL\\Wrapper.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F557C94A-A1C4-4C2B-8CDD-E826FC1D42B6}|DK_DLL\\DK_DLL.vcxproj|solutionrelative:DK_DLL\\Wrapper.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F557C94A-A1C4-4C2B-8CDD-E826FC1D42B6}|DK_DLL\\DK_DLL.vcxproj|C:\\Users\\sakarabaya\\source\\repos\\DK_DLL\\DK_DLL\\PluginSettings.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F557C94A-A1C4-4C2B-8CDD-E826FC1D42B6}|DK_DLL\\DK_DLL.vcxproj|solutionrelative:DK_DLL\\PluginSettings.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Wrapper.cpp",
+              "DocumentMoniker": "C:\\Users\\sakarabaya\\source\\repos\\DK_DLL\\DK_DLL\\Wrapper.cpp",
+              "RelativeDocumentMoniker": "DK_DLL\\Wrapper.cpp",
+              "ToolTip": "C:\\Users\\sakarabaya\\source\\repos\\DK_DLL\\DK_DLL\\Wrapper.cpp",
+              "RelativeToolTip": "DK_DLL\\Wrapper.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-12T23:46:26.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Wrapper.h",
+              "DocumentMoniker": "C:\\Users\\sakarabaya\\source\\repos\\DK_DLL\\DK_DLL\\Wrapper.h",
+              "RelativeDocumentMoniker": "DK_DLL\\Wrapper.h",
+              "ToolTip": "C:\\Users\\sakarabaya\\source\\repos\\DK_DLL\\DK_DLL\\Wrapper.h",
+              "RelativeToolTip": "DK_DLL\\Wrapper.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-12T23:43:29.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PluginSettings.h",
+              "DocumentMoniker": "C:\\Users\\sakarabaya\\source\\repos\\DK_DLL\\DK_DLL\\PluginSettings.h",
+              "RelativeDocumentMoniker": "DK_DLL\\PluginSettings.h",
+              "ToolTip": "C:\\Users\\sakarabaya\\source\\repos\\DK_DLL\\DK_DLL\\PluginSettings.h",
+              "RelativeToolTip": "DK_DLL\\PluginSettings.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-12T23:40:34.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Main.cpp",
+              "DocumentMoniker": "C:\\Users\\sakarabaya\\source\\repos\\DK_DLL\\DK_DLL\\Main.cpp",
+              "RelativeDocumentMoniker": "DK_DLL\\Main.cpp",
+              "ToolTip": "C:\\Users\\sakarabaya\\source\\repos\\DK_DLL\\DK_DLL\\Main.cpp",
+              "RelativeToolTip": "DK_DLL\\Main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-12T23:28:45.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ScoreString.cpp",
+              "DocumentMoniker": "C:\\Users\\sakarabaya\\source\\repos\\DK_DLL\\DK_DLL\\ScoreString.cpp",
+              "RelativeDocumentMoniker": "DK_DLL\\ScoreString.cpp",
+              "ToolTip": "C:\\Users\\sakarabaya\\source\\repos\\DK_DLL\\DK_DLL\\ScoreString.cpp",
+              "RelativeToolTip": "DK_DLL\\ScoreString.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-12T23:29:20.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Score.h",
+              "DocumentMoniker": "C:\\Users\\sakarabaya\\source\\repos\\DK_DLL\\DK_DLL\\Score.h",
+              "RelativeDocumentMoniker": "DK_DLL\\Score.h",
+              "ToolTip": "C:\\Users\\sakarabaya\\source\\repos\\DK_DLL\\DK_DLL\\Score.h",
+              "RelativeToolTip": "DK_DLL\\Score.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-12T23:22:53.176Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ScoreString.h",
+              "DocumentMoniker": "C:\\Users\\sakarabaya\\source\\repos\\DK_DLL\\DK_DLL\\ScoreString.h",
+              "RelativeDocumentMoniker": "DK_DLL\\ScoreString.h",
+              "ToolTip": "C:\\Users\\sakarabaya\\source\\repos\\DK_DLL\\DK_DLL\\ScoreString.h",
+              "RelativeToolTip": "DK_DLL\\ScoreString.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-12T23:24:59.84Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
